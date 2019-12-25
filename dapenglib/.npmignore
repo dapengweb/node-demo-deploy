@@ -1,0 +1,7 @@
+lib
+src
+node_modules
+.env
+.vscode
+tsconfig.json
+tsconfig.publish.json

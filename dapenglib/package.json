@@ -1,0 +1,20 @@
+{
+  "name": "dapenglib",
+  "version": "1.0.4",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "release": "tsc --build tsconfig.publish.json && npm publish"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.21",
+    "axios": "^0.19.0",
+    "demo": "^1.0.0"
+  }
+}
